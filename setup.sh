@@ -50,3 +50,6 @@ volta install node
 curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 bash Miniconda3-latest-Linux-x86_64.sh
 echo "Restart the terminal and paste 'conda config --set auto_activate_base false' to stop conda from activating base"
+
+# Install NvChad
+git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
