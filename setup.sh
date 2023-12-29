@@ -39,7 +39,7 @@ else
 fi
 
 # Install some required softwares (I use them so yeah, feel free to modify the script)
-yay -S --noconfirm curl google-chrome spotify discord xwaylandvideobridge neofetch neovim-git nano visual-studio-code-bin htop bpytop freshfetch-git
+yay -S --noconfirm curl google-chrome spotify discord xwaylandvideobridge neofetch neovim-git nano visual-studio-code-bin htop bpytop freshfetch-git ttf-symbola noto-fonts-cjk noto-fonts-emoji ttf-twemoji
 
 # Install node latest using volta
 curl https://get.volta.sh | bash
