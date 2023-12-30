@@ -68,4 +68,4 @@ sudo systemctl enable docker.service
 sudo groupadd docker
 sudo usermod -aG docker $USER
 newgrp docker
-reboot
+sudo reboot now
