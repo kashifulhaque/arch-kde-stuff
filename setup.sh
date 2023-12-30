@@ -59,3 +59,13 @@ echo "Restart the terminal and paste 'conda config --set auto_activate_base fals
 
 # Install NvChad
 git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
+
+# Install docker (this script REBOOTS the system)
+yay -Sy
+yay -S docker docker-compose
+sudo systemctl start docker.service
+sudo systemctl enable docker.service
+sudo groupadd docker
+sudo usermod -aG docker $USER
+newgrp docker
+reboot
