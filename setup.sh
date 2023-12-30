@@ -45,7 +45,7 @@ yay -S --noconfirm curl
 curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh -s -- -y
 
 # Install some required softwares (I use them so yeah, feel free to modify the script)
-yay -S --noconfirm base-devel google-chrome spotify discord xwaylandvideobridge neofetch neovim-git nano visual-studio-code-bin htop bpytop freshfetch-git ttf-symbola noto-fonts-cjk noto-fonts-emoji ttf-twemoji fzf
+yay -S --noconfirm base-devel google-chrome spotify discord xwaylandvideobridge neofetch neovim-git nano visual-studio-code-bin htop bpytop freshfetch-git ttf-symbola noto-fonts-cjk noto-fonts-emoji ttf-twemoji fzf kcalc vlc okular tt
 
 # Install node latest using volta
 curl https://get.volta.sh | bash
