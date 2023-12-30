@@ -62,7 +62,7 @@ git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
 
 # Install docker (this script REBOOTS the system)
 yay -Sy
-yay -S docker docker-compose
+yay -S docker docker-compose --noconfirm
 sudo systemctl start docker.service
 sudo systemctl enable docker.service
 sudo groupadd docker
