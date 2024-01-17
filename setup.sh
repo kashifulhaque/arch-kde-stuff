@@ -49,14 +49,13 @@ yay -S --noconfirm \
   gcc clang go base-devel \
   ttf-symbola noto-fonts-cjk \
   noto-fonts-emoji ttf-twemoji \
-  podman-docker #install podman \
-  miniconda3 #install miniconda3
+  podman-docker miniconda3
 
 # Install Rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-#source ~/.bashrc # this is extra
 
-# Install node latest using volta
+# Install Node using Volta
 curl https://get.volta.sh | bash
+
+# Activate the changes
 source ~/.bashrc
-volta install node
