@@ -46,7 +46,7 @@ yay -S --noconfirm \
   neofetch neovim-git \
   visual-studio-code-bin \
   htop bpytop freshfetch \
-  gcc clang go base-devel \
+  gcc clang go base-devel opencl-amd \
   ttf-symbola noto-fonts-cjk \
   noto-fonts-emoji ttf-twemoji \
   podman-docker miniconda3
