@@ -49,7 +49,7 @@ yay -S --noconfirm \
   gcc clang go base-devel opencl-amd \
   ttf-symbola noto-fonts-cjk \
   noto-fonts-emoji ttf-twemoji \
-  podman-docker miniconda3
+  podman-docker
 
 # Install Rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
