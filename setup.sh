@@ -77,7 +77,7 @@ git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
 yay -Sy
 yay -S docker docker-compose --noconfirm
 sudo systemctl start docker.service
-sudo systemctl enable docker.service
+sudo systemctl enable --now docker.service
 sudo groupadd docker
 sudo usermod -aG docker $USER
 newgrp docker
