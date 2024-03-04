@@ -38,6 +38,7 @@ else
   rm -rf yay
 fi
 
+
 echo "Installing CURL"
 # Install curl
 yay -S --noconfirm curl
@@ -52,9 +53,25 @@ echo "All the packages basically required are installed !!"
 
 echo "Now installing Volta and node latest"
 # Install node latest using volta
+=======
+# Install some required softwares (I use them so yeah, feel free to modify the script)
+yay -S --noconfirm \
+  curl google-chrome \
+  spotify discord \
+  xwaylandvideobridge \
+  neofetch neovim-git \
+  visual-studio-code-bin \
+  htop bpytop freshfetch \
+  gcc clang go base-devel opencl-amd \
+  ttf-symbola noto-fonts-cjk \
+  noto-fonts-emoji ttf-twemoji \
+  podman-docker
+
+# Install Rust
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+# Install Node using Volta
 curl https://get.volta.sh | bash
-source ~/.bashrc
-volta install node
 
 echo "Now installing SDKMAN and Java latest"
 # Install java latest using SDKMAN
@@ -82,3 +99,5 @@ sudo groupadd docker
 sudo usermod -aG docker $USER
 newgrp docker
 sudo reboot now
+# Activate the changes
+source ~/.bashrc
