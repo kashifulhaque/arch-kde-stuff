@@ -56,6 +56,7 @@ echo "Now installing Volta and node latest"
 =======
 # Install some required softwares (I use them so yeah, feel free to modify the script)
 yay -S --noconfirm \
+  zip unzip \
   curl google-chrome \
   spotify discord \
   xwaylandvideobridge \
